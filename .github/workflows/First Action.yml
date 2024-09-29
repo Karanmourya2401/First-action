@@ -1,0 +1,10 @@
+name: First Action
+on: workflow_dispatch
+jobs:
+  First-job:
+  runs-on: ubuntu-latest
+    steps:
+      - name: First-Step
+        run: echo "Hello Brother"
+      - name: First-Step
+        run: echo "Hello Brother"
